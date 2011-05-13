@@ -1,0 +1,9 @@
+Ok this is a stupid simple site engine... all it does:
+1) given the path of the request or '404' 
+2) check to see if a file exists (convert .md files to html if needed)
+3) take said file and shove it in to a sprintf 'template'
+4) return
+
+This allows you to be able to build out an entire dir of .md and .html files that 'just get served'. This is written in raw plack so look there on how to deploy. 
+
+
